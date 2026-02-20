@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Texta';
+    src: url('/fonts/TextaRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Texta';
+    src: url('/fonts/TextaMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Texta';
+    src: url('/fonts/TextaBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Texta';
+    src: url('/fonts/TextaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@theme {
+    /* Paleta Oficial Poletto & Possamai */
+
+    /* AZUL ESCURO P&P */
+    /* PANTONE 2955 C | CMKY 100/ 78/ 36/ 28 | RGB 0/ 55/ 99 */
+    --color-brand-primary: #003763;
+    --color-brand-primary-light: #004a85;
+    /* Variação para hover/gradiente */
+    --color-brand-primary-dark: #002542;
+    /* Variação para sombras */
+
+    /* AMARELO P&P */
+    /* PANTONE 7404 C | CMKY 0/ 11/ 74/ 4 | RGB 244/ 218/ 64 */
+    --color-brand-secondary: #f4da40;
+
+    /* BRANCO */
+    /* RGB 255/ 255/ 255 */
+    --color-brand-white: #FFFFFF;
+
+    /* Superfícies */
+    --color-brand-surface: #f8fafc;
+    /* Slate-50 para fundo geral (suave) */
+
+    /* Tipografia */
+    --font-sans: 'Texta', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+    font-family: 'Texta', ui-sans-serif, system-ui, sans-serif;
+    background-color: var(--color-brand-surface);
+    color: #1e293b;
+    /* slate-800 para texto padrão */
+}

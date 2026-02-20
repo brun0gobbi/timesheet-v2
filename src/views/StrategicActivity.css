@@ -1,0 +1,14 @@
+/* StrategicActivity.css */
+.strategic-activity-color-box {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 9999px;
+    flex-shrink: 0;
+}
+
+.strategic-activity-progress-bar {
+    height: 100%;
+    border-radius: 9999px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
